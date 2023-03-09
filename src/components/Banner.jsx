@@ -73,7 +73,7 @@ const Banner = () =>{
                             <a href='https://twitter.com/LaPanteraGrosa' target='blank'>
                                 <FaTwitter/>
                             </a>
-                            <a href='https://www.facebook.com/christian.taboada.7'>
+                            <a href='https://www.facebook.com/christian.taboada.7' target='blank'>
                                 <FaFacebook/>
                             </a>
                             <a href='https://github.com/ChristianTaboada' target='blank'>
