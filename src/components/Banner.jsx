@@ -67,22 +67,22 @@ const Banner = () =>{
                         whileInView={'show'} 
                         viewport={{once:false, amount:0.7}}
                         className='flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0'>
-                            <a href='#'>
+                            <a href='https://www.instagram.com/chris__taboada/' target='blank'>
                                 <FaInstagram/>
                             </a>
-                            <a href='#'>
+                            <a href='https://twitter.com/LaPanteraGrosa' target='blank'>
                                 <FaTwitter/>
                             </a>
-                            <a href='#'>
+                            <a href='https://www.facebook.com/christian.taboada.7'>
                                 <FaFacebook/>
                             </a>
-                            <a href='#'>
+                            <a href='https://github.com/ChristianTaboada' target='blank'>
                                 <FaGithub/>
                             </a>
-                            <a href='#'>
+                            <a href='https://www.linkedin.com/in/christian-taboada/' target='blank'>
                                 <FaLinkedin/>
                             </a>
-                            <a href='#'>
+                            <a href='https://discord.gg/pHfSq7XUvB' target='blank'>
                                 <FaDiscord/>
                             </a>
                         </motion.div>
