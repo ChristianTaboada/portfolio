@@ -47,7 +47,7 @@ const About = () =>{
                                 </div>
                             </div>
                         </div>
-                        <div>
+                        <div className='flex max-w-max gap-x-6 items-center mb-12 max-auto lg:mx:0'>
                             <button className='btn btn-lg'>Contact me</button>
                             <a href='#' className='text-gradient btn-link'>
                                 My Portfolio
