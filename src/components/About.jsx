@@ -29,7 +29,7 @@ const About = () =>{
                     className='flex-1'>
                         <h2 className='h2 text-accent'>About me</h2>
                         <h3 className='h3 mb-4'>
-                            I'm a Developer Full Stack with over 6 month of experience,
+                            I'm a Developer Full Stack with over 6 month of experience.
                         </h3>
                         <p className='mb-6'>
                             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum deleniti enim illo id sapiente expedita soluta voluptatum distinctio dolores reiciendis? Eum amet officia numquam iste quod, mollitia magni adipisci reiciendis.
