@@ -22,7 +22,7 @@ const Work = () =>{
                                 Work.
                             </h2>
                             <p className='max-w-sm mb-16'>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo doloremque quasi iusto magnam facere laudantium possimus debitis! Dolorem repudiandae ab optio deleniti, natus harum a voluptatem reiciendis veniam, expedita beatae!
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo doloremque quasi iusto magnam facere laudantium possimus debitis!
                             </p>
                             <button className='btn btn-sm'>View all projects</button>
                         </div>
