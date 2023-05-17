@@ -32,10 +32,12 @@ const About = () =>{
                             I'm a Developer Full Stack with over 8 month of experience.
                         </h3>
                         <p className='mb-6'>
-                        Soy un apasionado desarrollador web full-stack con experiencia en la creación de soluciones digitales de alta calidad.
                         Mi objetivo principal es combinar una sólida base técnica con una creatividad innovadora para entregar proyectos excepcionales.
+                        <br/>
                         Con una amplia experiencia en el desarrollo tanto del lado del cliente como del servidor, puedo crear aplicaciones web interactivas y escalables.
-                        Me siento cómodo trabajando con tecnologías como HTML, CSS, JavaScript, así como con frameworks y bibliotecas populares como React en el lado del cliente. 
+                        <br/>
+                        Me siento cómodo trabajando con tecnologías como HTML, CSS, JavaScript, así como con frameworks y bibliotecas populares como React en el lado del cliente.
+                        <br/>
                         Además, tengo experiencia en el desarrollo de API RESTful utilizando Node.js y Express, y puedo integrar eficientemente bases de datos como MySQL, MongoDB y PostgreSQL.
                         </p>
                         {/*stats*/}
