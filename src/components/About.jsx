@@ -29,10 +29,14 @@ const About = () =>{
                     className='flex-1'>
                         <h2 className='h2 text-accent'>About me</h2>
                         <h3 className='h3 mb-4'>
-                            I'm a Developer Full Stack with over 6 month of experience.
+                            I'm a Developer Full Stack with over 8 month of experience.
                         </h3>
                         <p className='mb-6'>
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum deleniti enim illo id sapiente expedita soluta voluptatum distinctio dolores reiciendis? Eum amet officia numquam iste quod, mollitia magni adipisci reiciendis.
+                        Soy un apasionado desarrollador web full-stack con experiencia en la creación de soluciones digitales de alta calidad.
+                        Mi objetivo principal es combinar una sólida base técnica con una creatividad innovadora para entregar proyectos excepcionales.
+                        Con una amplia experiencia en el desarrollo tanto del lado del cliente como del servidor, puedo crear aplicaciones web interactivas y escalables.
+                        Me siento cómodo trabajando con tecnologías como HTML, CSS, JavaScript, así como con frameworks y bibliotecas populares como React en el lado del cliente. 
+                        Además, tengo experiencia en el desarrollo de API RESTful utilizando Node.js y Express, y puedo integrar eficientemente bases de datos como MySQL, MongoDB y PostgreSQL.
                         </p>
                         {/*stats*/}
                         <div className='flex gap-x-6 lg:gap-x-10 mb-12'>
@@ -42,8 +46,8 @@ const About = () =>{
                                     inView? <CountUp start={0} end={6} duration={3}/> : null
                                     }
                                 </div>
-                                <div className='font-primary text-sm tracking-[2px]'>Mounth of <br/>
-                                Experience
+                                <div className='font-primary text-sm tracking-[2px]'>Meses de <br/>
+                                Experiencia
                                 </div>
                             </div>
                         </div>
