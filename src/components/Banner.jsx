@@ -48,7 +48,7 @@ const Banner = () =>{
                          whileInView={'show'} 
                          viewport={{once:false, amount:0.7}}
                          className='mb-8 max-w-lg mx-auto lg:mx-0'>
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda, consectetur maxime, voluptas ad corrupti hic debitis nobis id rerum voluptate quasi praesentium odit nostrum harum fugiat consequuntur ex dolore sunt.
+                            Creando experiencias web intuitivas y cautivadoras
                         </motion.p>
                         <motion.div 
                         variants={fadeIn('up', 0.6)}
@@ -57,7 +57,7 @@ const Banner = () =>{
                         viewport={{once:false, amount:0.7}}
                         className='flex max-w-max gap-x-6 items-center mb-12 max-auto lg:mx:0'>
                             <button className='btn btn-lg'>Contact Me</button>
-                            <a href='#' className='text-gradient btn-link'>
+                            <a href='https://github.com/ChristianTaboada?tab=repositories' className='text-gradient btn-link'>
                                 My Portfolio
                             </a>
                         </motion.div>

@@ -29,7 +29,7 @@ const About = () =>{
                     className='flex-1'>
                         <h2 className='h2 text-accent'>About me</h2>
                         <h3 className='h3 mb-4'>
-                            I'm a Developer Full Stack with over 8 month of experience.
+                            Soy un Full Stack Developer Comprometido a mejorar cada dia y poner en practica mis habilidades.
                         </h3>
                         <p className='mb-6'>
                         Mi objetivo principal es combinar una sólida base técnica con una creatividad innovadora para entregar proyectos excepcionales.
@@ -45,7 +45,7 @@ const About = () =>{
                             <div>
                                 <div className='text-[40px] font-tertiary text-gradient mb-2'>
                                     {
-                                    inView? <CountUp start={0} end={6} duration={3}/> : null
+                                    inView? <CountUp start={0} end={8} duration={3}/> : null
                                     }
                                 </div>
                                 <div className='font-primary text-sm tracking-[2px]'>Meses de <br/>
