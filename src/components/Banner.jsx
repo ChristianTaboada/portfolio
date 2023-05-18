@@ -62,7 +62,7 @@ const Banner = () =>{
                             activeClass='active'
                             smooth={true}
                             spy={true}
-                            className='btn btn-lg flex items-center'>Contact Me</Link>
+                            className='btn btn-lg flex items-center cursor-pointer'>Contact Me</Link>
                             <a href='https://github.com/ChristianTaboada?tab=repositories' target='blank' className='text-gradient btn-link'>
                                 My Portfolio
                             </a>

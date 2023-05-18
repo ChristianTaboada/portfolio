@@ -3,13 +3,14 @@ import CountUp from 'react-countup'
 import{useInView} from 'react-intersection-observer'
 import {motion} from 'framer-motion'
 import {fadeIn} from '../variants'
+import {Link} from 'react-scroll';
 
 const About = () =>{
     const [ref, inView] = useInView({
         threshold: 0.5,
     })
     return(
-        <section className='section' id='about' ref={ref}>
+        <section className='section mb-20' id='about' ref={ref}>
             <div className="container mx-auto">
                 <div className='flex flex-col gap-y-10 lg:flex-row lg:items-center lg:gap-x-20 lg:gap-y-0 h-screen'>
                     {/*imagen*/}
@@ -54,8 +55,13 @@ const About = () =>{
                             </div>
                         </div>
                         <div className='flex max-w-max gap-x-6 items-center mb-12 max-auto lg:mx:0'>
-                            <button className='btn btn-lg'>Contact me</button>
-                            <a href='#' className='text-gradient btn-link'>
+                            <Link 
+                            to='contact'
+                            activeClass='active'
+                            smooth={true}
+                            spy={true}
+                            className='btn btn-lg flex items-center cursor-pointer'>Contact Me</Link>
+                            <a href='https://github.com/ChristianTaboada?tab=repositories' target='blank' className='text-gradient btn-link'>
                                 My Portfolio
                             </a>
                         </div>
