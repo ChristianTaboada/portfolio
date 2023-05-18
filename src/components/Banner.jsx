@@ -48,7 +48,7 @@ const Banner = () =>{
                          whileInView={'show'} 
                          viewport={{once:false, amount:0.7}}
                          className='mb-8 max-w-lg mx-auto lg:mx-0'>
-                            Creando experiencias web intuitivas y cautivadoras
+                        CREANDO EXPERIENCIAS WEB INTUITIVAS Y CAUTIVADORAS
                         </motion.p>
                         <motion.div 
                         variants={fadeIn('up', 0.6)}
@@ -56,8 +56,8 @@ const Banner = () =>{
                         whileInView={'show'} 
                         viewport={{once:false, amount:0.7}}
                         className='flex max-w-max gap-x-6 items-center mb-12 max-auto lg:mx:0'>
-                            <button className='btn btn-lg'>Contact Me</button>
-                            <a href='https://github.com/ChristianTaboada?tab=repositories' className='text-gradient btn-link'>
+                            <Link to='contact' className='btn btn-lg'>Contact Me</Link>
+                            <a href='https://github.com/ChristianTaboada?tab=repositories' target='blank' className='text-gradient btn-link'>
                                 My Portfolio
                             </a>
                         </motion.div>
