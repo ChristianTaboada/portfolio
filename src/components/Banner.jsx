@@ -5,6 +5,7 @@ import {FaGithub, FaYoutube, FaDribbble, FaInstagram, FaTwitter, FaLinkedin, FaD
 import {TypeAnimation}  from 'react-type-animation';
 import {motion} from 'framer-motion'
 import {fadeIn} from '../variants'
+import {Link} from 'react-scroll'
 
 const Banner = () =>{
     return(
@@ -56,7 +57,12 @@ const Banner = () =>{
                         whileInView={'show'} 
                         viewport={{once:false, amount:0.7}}
                         className='flex max-w-max gap-x-6 items-center mb-12 max-auto lg:mx:0'>
-                            <Link to='contact' className='btn btn-lg'>Contact Me</Link>
+                            <Link 
+                            to='contact'
+                            activeClass='active'
+                            smooth={true}
+                            spy={true}
+                            className='btn btn-lg flex items-center'>Contact Me</Link>
                             <a href='https://github.com/ChristianTaboada?tab=repositories' target='blank' className='text-gradient btn-link'>
                                 My Portfolio
                             </a>
