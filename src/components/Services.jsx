@@ -41,10 +41,10 @@ const Services = () =>{
                     initial='hidden'
                     whileInView={'show'}
                     viewport={{ once: false, amount: 0.3 }}
-                    className='flex-1 lg:bg-services lg:bg-bottom bg-no-repeat mix-blend-lighten lg:mb-0 mb-12'>
-                        <h2 className='h2 text-accent mb-6'>What I Do.</h2>
-                        <h3 className='h3 max-w-[455px] mb-16'>
-                        I'm a Developer Full Stack with over 6 month of experience.
+                    className='flex-1 lg:bg-services lg:bg-bottom bg-no-repeat mix-blend-lighten lg:mb-0 mb-10'>
+                        <h2 className='h2 text-accent mb-4'>What I Do.</h2>
+                        <h3 className='h3 max-w-[455px] mb-6'>
+                        Desarrollando experiencias digitales impactantes
                         </h3>
                         <button className='btn btn-sm'>See my work</button>
                     </motion.div>
@@ -61,7 +61,7 @@ const Services = () =>{
                                 //destructuring service
                                 const {name, description, link} = service;
                                 return (
-                                <div className='border-b border-white/20 h-[185px] mb-[38px] flex' key={index}>
+                                <div className='border-b border-white/20 h-[150px] mb-[30px] flex' key={index}>
                                     <div className='max-w-[476px]'>
                                         <h4 className='text-[20px] tracking-wider font-primary font-semibold mb-6'>{name}</h4>
                                         <p className='font-secondary leading-tight'>{description}</p>
