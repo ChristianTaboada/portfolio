@@ -7,7 +7,7 @@ const services = [
     {
         name: 'UI/UX Design',
         description:
-        'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, ipsam accusantium suscipit quasi quidem laboriosam, quisquam nulla similique laudantium inventore esse, ducimus est. Fugiat incidunt eius explicabo vel! Magnam, itaque?',
+        'Experiencia en prototipado y pruebas de usabilidad, enfocado en la mejora continua de la experiencia del usuario. Busco crecer y aprender en UX/UI, aplicando estándares de accesibilidad y optimización en cada proyecto.',
         link: 'Learn more',
     },
     {
