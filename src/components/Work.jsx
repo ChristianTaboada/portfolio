@@ -2,6 +2,8 @@ import React from 'react';
 import {motion} from 'framer-motion'
 import {fadeIn} from '../variants'
 import img1 from '../assets/videogames-landing.png'
+import img2 from '../assets/dressmeMap.jpeg'
+import img3 from '../assets/dressmeMP.jpeg'
 
 
 const Work = () =>{
@@ -21,10 +23,10 @@ const Work = () =>{
                                 My Latest <br/>
                                 Work.
                             </h2>
-                            <p className='max-w-sm mb-16'>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo doloremque quasi iusto magnam facere laudantium possimus debitis!
+                            <p className='max-w-sm mb-12'>
+                                Portafolio de mis últimas creaciones
                             </p>
-                            <button className='btn btn-sm'>View all projects</button>
+                            <button className='btn btn-sm mb-20'>View all projects</button>
                         </div>
                         {/*image*/}
                         <div className='group relative overflow-hidden border-2 border-white/50 rounded-xl'>
@@ -42,7 +44,7 @@ const Work = () =>{
                                 </div>
                                 {/*title*/}
                                 <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>
-                                    <span className='text-3x1 text-white'>Project Title</span>
+                                    <span className='text-3x1 text-white'>Videogames</span>
                                 </div>
                         </div>
                     </motion.div>
@@ -60,7 +62,7 @@ const Work = () =>{
                                 {/*img*/}
                                 <img 
                                 className='group-hover:scale-125 transition-all duration-500' 
-                                src={img1} 
+                                src={img2} 
                                 alt=''></img>
                                 {/*pretitle*/}
                                 <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
@@ -68,7 +70,7 @@ const Work = () =>{
                                 </div>
                                 {/*title*/}
                                 <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>
-                                    <span className='text-3x1 text-white'>Project Title</span>
+                                    <span className='text-3x1 text-white'>DressMe</span>
                                 </div>
                         </div>
                         {/*img3*/}
@@ -79,7 +81,7 @@ const Work = () =>{
                                 {/*img*/}
                                 <img 
                                 className='group-hover:scale-125 transition-all duration-500' 
-                                src={img1} 
+                                src={img3} 
                                 alt=''></img>
                                 {/*pretitle*/}
                                 <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
@@ -87,7 +89,7 @@ const Work = () =>{
                                 </div>
                                 {/*title*/}
                                 <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>
-                                    <span className='text-3x1 text-white'>Project Title</span>
+                                    <span className='text-3x1 text-white'>DressMe MercadoPago</span>
                                 </div>
                         </div>
                     </motion.div>
