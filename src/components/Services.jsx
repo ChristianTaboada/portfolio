@@ -7,25 +7,25 @@ const services = [
     {
         name: 'UI/UX Design',
         description:
-        'Experiencia en prototipado y pruebas de usabilidad, enfocado en la mejora continua de la experiencia del usuario. Busco crecer y aprender en UX/UI, aplicando estándares de accesibilidad y optimización en cada proyecto.',
+        'Experiencia en prototipado y pruebas de usabilidad, enfocado en la mejora continua de la experiencia del usuario. Busco crecer y aprenderen UX/UI, aplicando estándares de accesibilidad y optimización en cada proyecto.',
         link: 'Learn more',
     },
     {
         name: 'Development',
         description:
-        'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, ipsam accusantium suscipit quasi quidem laboriosam, quisquam nulla similique laudantium inventore esse, ducimus est. Fugiat incidunt eius explicabo vel! Magnam, itaque?',
+        'Creo aplicaciones web escalables y completas utilizando HTML, CSS, JavaScript, React, Redux y Node.js. Abarco tanto el frontend como el backend, garantizando rendimiento óptimo y experiencia de usuario fluida.',
         link: 'Learn more',
     },
     {
-        name: 'Digital Marketing',
+        name: 'Resolución eficiente de problemas',
         description:
-        'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, ipsam accusantium suscipit quasi quidem laboriosam, quisquam nulla similique laudantium inventore esse, ducimus est. Fugiat incidunt eius explicabo vel! Magnam, itaque?',
+        'Me destaco por mi capacidad para identificar y abordar desafíos técnicos de manera eficiente. Con una mentalidad analítica y una sólida base de conocimientos, encuentro soluciones efectivas que optimizan la funcionalidad y la eficiencia de los proyectos web.',
         link: 'Learn more',
     },
     {
-        name: 'Product Branding',
+        name: 'Trabajo en equipo colaborativo',
         description:
-        'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, ipsam accusantium suscipit quasi quidem laboriosam, quisquam nulla similique laudantium inventore esse, ducimus est. Fugiat incidunt eius explicabo vel! Magnam, itaque?',
+        'Comunicación efectiva y adaptabilidad en desarrollo web. Experiencia en metodologías ágiles como Scrum. Comprometido con el aprendizaje y la aportación al equipo.',
         link: 'Learn more',
     },
 ]

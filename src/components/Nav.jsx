@@ -31,7 +31,6 @@ const Nav = () =>{
                 activeClass='active'
                 smooth={true}
                 spy={true}
-                
                 className='cursor-pointer w-[60px] h-[6opx] flex items-center justify-center'>
                 <BsClipboardData/>
                 </Link>
