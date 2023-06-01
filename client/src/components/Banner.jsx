@@ -1,7 +1,7 @@
 import React from 'react';
 
 import image from '../assets/banner-web.jpg';
-import {FaGithub, FaYoutube, FaDribbble, FaInstagram, FaTwitter, FaLinkedin, FaDiscord, FaFacebook}  from 'react-icons/fa';
+import {FaGithub, FaInstagram, FaTwitter, FaLinkedin, FaDiscord, FaFacebook, FaWhatsapp}  from 'react-icons/fa';
 import {TypeAnimation}  from 'react-type-animation';
 import {motion} from 'framer-motion'
 import {fadeIn} from '../variants'
@@ -26,7 +26,7 @@ const Banner = () =>{
                          initial='hidden' 
                          whileInView={'show'} 
                          viewport={{once:false, amount:0.7}}
-                        className='mb-6 text -[36px] lg:text-[60px] font secondary font-semibold uppercase leading[-1]'>
+                        className='mb-6 mt-6 text -[36px] lg:text-[60px] font secondary font-semibold uppercase leading[-1]'>
                             <span className='text-white mr-4'>I am a</span>
                             <TypeAnimation 
                             sequence={[
@@ -35,6 +35,8 @@ const Banner = () =>{
                                 'FullStack',
                                 2000,
                                 'Front-End',
+                                2000,
+                                'Back-End',
                                 2000,
                             ]}
                             speed={50}
@@ -62,9 +64,13 @@ const Banner = () =>{
                             activeClass='active'
                             smooth={true}
                             spy={true}
-                            className='btn btn-lg flex items-center cursor-pointer'>Contact Me</Link>
+                            className='btn btn-lg flex items-center cursor-pointer'>Contact Me
+                            </Link>
                             <a href='https://github.com/ChristianTaboada?tab=repositories' target='blank' className='text-gradient btn-link'>
                                 My Portfolio
+                            </a>
+                            <a href='https://drive.google.com/uc?export=download&id=1ytiWDMQ3fzctKj13QXn_dNN_PeReCV7l' className='text-gradient btn-link'>
+                                My CV
                             </a>
                         </motion.div>
                         <motion.div
@@ -73,20 +79,23 @@ const Banner = () =>{
                         whileInView={'show'} 
                         viewport={{once:false, amount:0.7}}
                         className='flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0'>
-                            <a href='https://www.instagram.com/chris__taboada/' target='blank'>
-                                <FaInstagram/>
-                            </a>
-                            <a href='https://twitter.com/LaPanteraGrosa' target='blank'>
-                                <FaTwitter/>
-                            </a>
-                            <a href='https://www.facebook.com/christian.taboada.7' target='blank'>
-                                <FaFacebook/>
+                            <a href='https://www.linkedin.com/in/christian-taboada/' target='blank'>
+                                <FaLinkedin/>
                             </a>
                             <a href='https://github.com/ChristianTaboada' target='blank'>
                                 <FaGithub/>
                             </a>
-                            <a href='https://www.linkedin.com/in/christian-taboada/' target='blank'>
-                                <FaLinkedin/>
+                            <a href='https://wa.me/541138722810' target='blank'>
+                                <FaWhatsapp/>
+                            </a>
+                            <a href='https://twitter.com/LaPanteraGrosa' target='blank'>
+                                <FaTwitter/>
+                            </a>
+                            <a href='https://www.instagram.com/chris__taboada/' target='blank'>
+                                <FaInstagram/>
+                            </a>
+                            <a href='https://www.facebook.com/christian.taboada.7' target='blank'>
+                                <FaFacebook/>
                             </a>
                             <a href='https://discord.gg/pHfSq7XUvB' target='blank'>
                                 <FaDiscord/>
