@@ -25,8 +25,8 @@ const Contact = () =>{
 
     const handleSubmit = (event) =>{
         event.preventDefault();
-
-        axios.post('http://localhost:3001/formulario', {nombre, correo, mensaje})
+        //hace el post a la ruta de railway, que antes era el localhost:3001
+        axios.post('https://portfolio-production-05e4.up.railway.app/formulario', {nombre, correo, mensaje})
         .then((response)=>{
             console.log(response.data);
         })
