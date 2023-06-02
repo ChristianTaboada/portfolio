@@ -19,7 +19,7 @@ const services = [
     {
         name: 'Resolución eficiente de problemas',
         description:
-        'Me destaco por mi capacidad para identificar y abordar desafíos técnicos de manera eficiente. Con una mentalidad analítica y una sólida base de conocimientos, encuentro soluciones efectivas que optimizan la funcionalidad y la eficiencia de los proyectos web.',
+        'Me destaco por mi capacidad para identificar y abordar desafíos técnicos de manera eficiente. Con una mentalidad analítica y una sólida base de conocimientos, encuentro soluciones efectivas que optimizan la funcionalidad y la eficiencia.',
         link: 'Learn more',
     },
     {
@@ -32,7 +32,7 @@ const services = [
 
 const Services = () =>{
     return(
-        <div className='section mt-20' id='services'>
+        <div className='section' id='services'>
             <div className="container mx-auto">
                 <div className='flex flex-col lg:flex-row'>
                     {/*text and image*/}
@@ -61,9 +61,9 @@ const Services = () =>{
                                 //destructuring service
                                 const {name, description, link} = service;
                                 return (
-                                <div className='border-b border-white/20 h-[150px] mb-[30px] flex' key={index}>
+                                <div className='border-b border-white/20 h-[180px] mb-[30px] flex' key={index}>
                                     <div className='max-w-[476px]'>
-                                        <h4 className='text-[20px] tracking-wider font-primary font-semibold mb-6'>{name}</h4>
+                                        <h4 className='text-[20px] tracking-wider font-primary font-semibold mb-5'>{name}</h4>
                                         <p className='font-secondary leading-tight'>{description}</p>
                                     </div>
                                     <div className='flex flex-col flex-1 items-end'>
