@@ -10,7 +10,7 @@ const About = () =>{
         threshold: 0.5,
     })
     return(
-        <section className='section mb-20' id='about' ref={ref}>
+        <section className='section mb-80' id='about' ref={ref}>
             <div className="container mx-auto">
                 <div className='flex flex-col gap-y-10 lg:flex-row lg:items-center lg:gap-x-20 lg:gap-y-0 h-screen'>
                     {/*imagen*/}
@@ -32,7 +32,7 @@ const About = () =>{
                         <h3 className='h3 mb-4'>
                             Soy un Full Stack Developer Comprometido a mejorar cada dia y poner en practica mis habilidades.
                         </h3>
-                        <p className='mb-6'>
+                        <p className='mb-10'>
                         Mi objetivo principal es combinar una sólida base técnica con una creatividad innovadora para entregar proyectos excepcionales.
                         <br/>
                         Con una amplia experiencia en el desarrollo tanto del lado del cliente como del servidor, puedo crear aplicaciones web interactivas y escalables.
