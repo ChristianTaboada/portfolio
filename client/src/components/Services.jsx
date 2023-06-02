@@ -19,7 +19,7 @@ const services = [
     {
         name: 'Resolución eficiente de problemas',
         description:
-        'Me destaco por mi capacidad para identificar y abordar desafíos técnicos de manera eficiente. Con una mentalidad analítica y una sólida base de conocimientos, encuentro soluciones efectivas que optimizan la funcionalidad y la eficiencia.',
+        'Sobresalgo en la identificación y resolución eficiente de desafíos técnicos. Mi mentalidad analítica y amplio conocimiento me permiten encontrar soluciones efectivas que mejoran la funcionalidad y la eficiencia.',
         link: 'Learn more',
     },
     {
